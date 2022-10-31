@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+main {
+    background-color: #1f2937;
+    padding: 0px 200px;
+    position: relative;
+}
+
+nav{
+    padding-top: 20px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.nav-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    display: inline-block;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: inline;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.hero-content {
+    margin-bottom: 20px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.hero-secondary {
+    font: 18px;
+    color: #e5e7eb;
+    width: 450px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 70px;
+}
+
+.img-section {
+    background-color: grey;
+    height: 200px;
+    width: 35vw;
+    position: absolute;
+    top: 145px;
+    right: 200px;
+}
+
+.information {
+    height: 40vh;
+    padding: 0px 200px;
+    margin-bottom: 50px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-text {
+    text-align: center;
+    width: 150px;
+}
+
+.information-boxes {
+    height: 150px;
+    width: 140px;
+    background-color: none;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    width: 80%;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.quote-author {
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    position: absolute;
+    right: 50px;
+}
+
+.cta-section {
+    padding: 100px 20vw;
+}
+
+.cta-banner {
+    background-color: #3882f6;
+    margin-top: 5px;
+    height: 150px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cta-banner-text {
+    color: #e5e7eb;
+    display: block;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+.cta-header {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cta-button-banner {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: solid 1.2px white;
+    border-radius: 0.5rem;
+    padding: 5px 30px;
+    position: absolute;
+    right: 100px;
+    top: 65px;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 50px;
+    padding: 0px 200px;
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    padding-top: 20px;
+    font-size: 0.8em;
+}
